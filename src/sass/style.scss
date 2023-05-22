@@ -1,1 +1,24 @@
-@import '../sass/libs/bootstrap.min';
+@import 'libs/bootstrap.min';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+
+@import 'blocks/header';
+@import 'blocks/title';
+@import 'blocks/buttons';
+@import 'blocks/modal';
+@import 'blocks/customers';
+@import 'blocks/catalog';
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+}

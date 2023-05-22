@@ -1,0 +1,36 @@
+.catalog {
+    height: 792px;
+    width: 1440px;
+    margin: 0 auto;
+    background: rgba(217, 217, 217, 0.65);
+    &__wrapper {
+        width: 1440px;
+    }
+    &__title {
+        padding-top: 21px;
+    }
+    &__subtitle {
+        text-align: center;
+    }
+    &__items {
+        width: 289px;
+        height: 282px;
+        border-radius: 5px;
+    }
+    &__item {
+        position: absolute;
+        width: 289px;
+        height: 55px;
+        border-radius: 5px;
+        background: $main-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__grid {
+        display: grid;
+        padding: 33px 175px;
+        grid-template: repeat(2, 282px) / repeat(3, 289px);
+        gap: 34px 110px;
+    }
+}

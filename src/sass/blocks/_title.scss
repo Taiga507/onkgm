@@ -1,0 +1,62 @@
+.title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #444444;
+    &_fz15 {
+        font-size: 15px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &_fz16 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    &_fz18 {
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+    }
+    &_fz20 {
+        font-size: 20px;
+        line-height: 116.4%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &_fz20b {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        color: #000000;
+    }
+    &_fz20b400 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        color: #444444;
+        text-align: center;
+    }
+    &_fz35 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    &_fz40 {
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+    }
+    &_fz46 {
+        font-size: 40px;
+        line-height: 46px;
+        color: #454545;
+        text-align: center;
+    }
+    &_fz80 {
+        font-size: 80px;
+        line-height: 100px;
+        letter-spacing: -0.055em;
+        color: #FFFFFF;
+    }
+}
