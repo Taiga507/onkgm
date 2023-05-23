@@ -16,6 +16,10 @@
         width: 289px;
         height: 282px;
         border-radius: 5px;
+        &:hover {
+            transition: 0.5s all;
+            filter: drop-shadow(4px 8px 16px rgba(27, 27, 27, 0.35));
+        }
     }
     &__item {
         position: absolute;

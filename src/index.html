@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="header__wrapper">
-                <a href="#" class="header__logo">
+                <a href="#header" class="header__logo">
                     <img src="img/logo.png" alt="logo">
                 </a>
 
@@ -35,12 +35,12 @@
                 
                 <nav class="header__nav">
                     <ul class="header__menu">
-                        <li class="header__link title title_fz18"><a href="#">Главная</a></li>
-                        <li class="header__link title title_fz18"><a href="#">Каталог</a></li>
-                        <li class="header__link title title_fz18"><a href="#">фотогалерея</a></li>
-                        <li class="header__link title title_fz18"><a href="#">сертификаты</a></li>
-                        <li class="header__link title title_fz18"><a href="#">Доставка</a></li>
-                        <li class="header__link title title_fz18"><a href="#">Контакты</a></li>
+                        <li class="header__link title title_fz18"><a href="#header">Главная</a></li>
+                        <li class="header__link title title_fz18"><a href="#catalog">Каталог</a></li>
+                        <li class="header__link title title_fz18"><a href="#owl">фотогалерея</a></li>
+                        <li class="header__link title title_fz18"><a href="#sertificates">сертификаты</a></li>
+                        <li class="header__link title title_fz18"><a href="#delivery">Доставка</a></li>
+                        <li class="header__link title title_fz18"><a href="#contacts">Контакты</a></li>
                     </ul>
                 </nav>
 
@@ -52,7 +52,7 @@
             <h1 class="title title_fz80">Производство и<br>поставка<br>комплектующих для<br>трубопроводов</h1>
             <div class="modal__wrapper">
                 <div class="modal__title title title_fz35">Получить счет</div>
-                <form id="consultation-form" action="#" class="feed-form">
+                <form id="consultation-form" action="#" class="feedform">
                     <input name="name" required placeholder="Имя" type="text">
                     <input name="email" required placeholder="Почта" type="email">
                     <input name="phone" required placeholder="Номер телефона">
@@ -84,7 +84,7 @@
     <section class="customers">
         <div class="container">
             <div class="customers__wrapper">
-                <div class="customers__title title title_fz46">Наши заказчики</div>
+                <h2 class="customers__title title title_fz46">Наши заказчики</h2>
                 <div class="customers__iconsone">
                     <img src="img/brands/stroitransgas.png" alt="stroitransgas" class="customers__icon">
                     <img src="img/brands/rosvodokanal.png" alt="rosvodokanal" class="customers__icon">
@@ -99,10 +99,10 @@
         </div>
     </section>
 
-    <section class="catalog">
+    <section class="catalog" id="catalog">
         <div class="container">
             <div class="catalog__wrapper">
-                <div class="catalog__title title title_fz40">Каталог</div>
+                <h2 class="catalog__title title title_fz40">Каталог</h2>
                 <div class="catalog__grid">
                     <div class="catalog__items">
                         <div class="catalog__item title title_fz20b400">Уплотнители кольцевых пространств</div>
@@ -134,10 +134,219 @@
         </div>
     </section>
 
+    <section class="owl" id="owl">
+        <div class="container">
+            <h2 class="owl__title title title_fz40">Фотогалерея</h2>
+            <div class="owl-carousel owl-theme">
+                <div class="zoom-gallery">
+                    <a href="img/slider/slide01.jpg" title="slide_1">
+                    <img src="img/slider/preview01.png" alt="slide_1">
+                    </a>
+                </div>
+                <div class="zoom-gallery">
+                    <a href="img/slider/slide02.jpeg" title="slide_2">
+                    <img src="img/slider/preview02.png" alt="slide_2">
+                    </a>
+                </div>
+                <div class="zoom-gallery">
+                    <a href="img/slider/slide03.jpg" title="slide_3">
+                    <img src="img/slider/preview03.png" alt="slide_3">
+                    </a>
+                </div>
+                <div class="zoom-gallery">
+                    <a href="img/slider/slide04.jpg" title="slide_4">
+                    <img src="img/slider/preview04.png" alt="slide_4">
+                    </a>
+                </div>
+                <div class="zoom-gallery">
+                    <a href="img/slider/slide05.jpg" title="slide_5">
+                    <img src="img/slider/preview05.png" alt="slide_5">
+                    </a>
+                </div>
+                <div class="zoom-gallery">
+                    <a href="img/slider/slide06.jpg" title="slide_6">
+                    <img src="img/slider/preview06.png" alt="slide_6">
+                    </a>
+                </div>
+                <div class="zoom-gallery">
+                    <a href="img/slider/slide07.jpg" title="slide_7">
+                    <img src="img/slider/preview07.png" alt="slide_7">
+                    </a>
+                </div>
+                <div class="zoom-gallery">
+                    <a href="img/slider/slide08.jpg" title="slide_8">
+                    <img src="img/slider/preview08.png" alt="slide_8">
+                    </a>
+                </div>
+                <div class="zoom-gallery">
+                    <a href="img/slider/slide09.jpg" title="slide_9">
+                    <img src="img/slider/preview09.png" alt="slide_9">
+                    </a>
+                </div>
+                <div class="zoom-gallery">
+                    <a href="img/slider/slide10.jpg" title="slide_10">
+                    <img src="img/slider/preview10.png" alt="slide_10">
+                    </a>
+                </div>
+                <div class="zoom-gallery">
+                    <a href="img/slider/slide11.png" title="slide_11">
+                    <img src="img/slider/preview11.png" alt="slide_11">
+                    </a>
+                </div>
+                <div class="zoom-gallery">
+                    <a href="img/slider/slide12.jpg" title="slide_12">
+                    <img src="img/slider/preview12.png" alt="slide_12">
+                    </a>
+                </div>
+            </div>
+            <div class="divider">
+                <div class="divider__orn"></div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="sertificates" id="sertificates">
+        <div class="container">
+            <h2 class="sertificates__title title title_fz40">Сертификаты</h2>
+            <div class="sertificates__items">
+                <img src="img/certificates/certificate01.png" alt="1">
+                <img src="img/certificates/certificate02.png" alt="2">
+                <img src="img/certificates/certificate03.png" alt="3">
+                <img src="img/certificates/certificate04.png" alt="4">
+            </div>
+        </div>
+    </section>
+
+    <section class="delivery" id="delivery">
+        <div class="container">
+            <h2 class="delivery__title title title_fz60">Доставка по всей<br>России от <span class="colortext">1 дня</span></h2>
+            <div class="delivery__descr title title_fz18c">Мы доставляем нашу продукцию в любой город России. Доставка осуществляется партнерскими транспортными<br>компаниями. Они возьмут на себя контроль над состоянием груза на протяжении всего пути.</div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts__our">
+                <div class="contacts__title title title_fz40c">Наши контакты</div>
+                <div class="contacts__divider"></div>
+                <div class="contacts__items">
+                    <div class="contacts__item">
+                        <img src="icons/header_contacts/phone.svg" alt="phone">
+                        <div class="contacts__text title title_fz16c">+7 (812) 326 05 72</div>
+                    </div>
+                    <div class="contacts__item">
+                        <img src="icons/header_contacts/mail.svg" alt="mail">
+                        <div class="contacts__text title title_fz16c">hkgm+12545@hkgm.ru</div>
+                    </div>
+                    <div class="contacts__item">
+                        <img src="icons/header_contacts/place.svg" alt="place">
+                        <div class="contacts__text title title_fz16c">Головной офис: г. Санкт-Петербург,<br>пр-т Обуховской обороны, д.86, лит. К, оф. 522. </div>
+                    </div>
+                    <div class="contacts__item">
+                        <img src="icons/header_contacts/time.svg" alt="time">
+                        <div class="contacts__text title title_fz16c">График работы :<br>Пн. - Пт. с 9:00 до 18:00</div>
+                    </div>
+                </div>
+                <div class="contacts__map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Adb655e483a4d8e0056cf42d1c6181695cae967fd56ae3e88bf5e82f39a6c135c&amp;source=constructor" width="612" height="363" frameborder="0"></iframe>
+                </div>
+            </div>
+
+            <div class="contacts__form">
+                <div class="contacts__title title title_fz40c">Обратная связь</div>
+                <div class="contacts__divider"></div>
+                <form id="consultation-form" action="#" class="feedform feedform__footer">
+                    <input name="name" required placeholder="Ваше имя" type="text">
+                    <input name="email" required placeholder="Ваш email" type="email">
+                    <input name="phone" required placeholder="Ваш номер телефона*">
+                    <textarea placeholder="Комментарий"></textarea>
+                    <input type="file" multiple="multiple" accept="image/*" class="contacts__file">
+                    <div class="contacts__btn">
+                        <button class="button button-feed title title_fz16700">Оставить заявку</button>
+                        <div class="contacts_btndescr title title_fz14">Нажимая кнопка “Отправить”, вы даете согласие на обработку персональных данных</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a href="#header" class="footer__logo">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <div class="footer__catalog">
+                    <div class="footer__divider"></div>
+                    <ul class="header__menu">
+                        <li class="footer__link title title_fz18w"><a href="#header">Главная</a></li>
+                        <li class="footer__link title title_fz18w"><a href="#catalog">Каталог</a></li>
+                        <li class="footer__link title title_fz18w"><a href="#owl">фотогалерея</a></li>
+                        <li class="footer__link title title_fz18w"><a href="#sertificates">сертификаты</a></li>
+                        <li class="footer__link title title_fz18w"><a href="#delivery">Доставка</a></li>
+                        <li class="footer__link title title_fz18w"><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__divider"></div>
+                    <div class="footer__phone">
+                        <img src="icons/footer/phone.svg" alt="phone">
+                        <a href="tel:+78123260572" class="footer__phone-title title title_fz16w">+7 (812) 326 05 72</a>
+                    </div>
+                    <div class="footer__email">
+                        <img src="icons/footer/mail.svg" alt="email">
+                        <div class="footer__email-title title title_fz16w">hkgm+12545@hkgm.ru</div>
+                    </div>
+                </div>
+                <div class="footer__company">
+                    <div class="footer__divider"></div>
+                    <div class="footer__name title title_fz16w">© ООО “ХК “Голиаф-Металл”</div>
+                    <a href="#" class="footer__politic">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__item title title_fz22">Заказать звонок</div>
+            <div class="modal__subtitle">
+                <div class="modal__items">
+                    <div class="modal__email">
+                        <img src="icons/header_contacts/mail.svg" alt="email">
+                        <div class="modal__email-title title title_fz16c">hkgm+12545@hkgm.ru</div>
+                    </div>
+                    <div class="modal__phone">
+                        <img src="icons/header_contacts/phone.svg" alt="phone">
+                        <a href="tel:+78123260572" class="modal__phone-title title title_fz16c">+7 (812) 326 05 72</a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__descr title title_fz16u">Оставьте ваши актуальные данные и мы вам перезвоним</div>
+            <form id="consultation-form" action="#" class="feedform__consultation">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="email" required placeholder="Ваш email" type="email">
+                <input name="phone" required placeholder="Ваш номер телефона*">
+
+                <button class="modal__button-consultation title title_fz16m">Оставить заявку</button>
+            </form>
+        </div>
+
+        <div class="modalthanks" id="thanks">
+            <div class="modalthanks__white">&times;</div>
+            <div class="modalthanks__title title title_fz40w">Спасибо за вашу заявку!</div>
+            <div class="modalthanks__divider"></div>
+            <div class="modalthanks__subtitle title title_fz18w">Наш менеджер свяжется с вами в ближайшее время</div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>

@@ -13,6 +13,18 @@
         text-decoration: underline;
         transition: 0.5s all;
     }
+    &-feed {
+        position: relative;
+        width: 216px;
+        height: 50px;
+        background: #454545;
+        box-shadow: none;
+        &:hover {
+            background: $main-color;
+            color: #454545;
+            transition: 0.5s all;
+        }
+    }
 }
 
 .modal__button {
@@ -32,4 +44,14 @@
         text-decoration: underline;
         transition: 0.5s all;
     }
+}
+.modal__button-consultation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 52px;
+    background: $main-color;
+    border-radius: 5px;
+    border: none;
 }

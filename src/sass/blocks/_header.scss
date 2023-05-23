@@ -3,7 +3,7 @@
     width: 1440px;
     height: 868px;
     margin: 0 auto;
-    background: url(../../img/main_bg.png) center (center/cover) no-repeat;
+    background: url(../img/main_bg.png) center (center/cover) no-repeat;
     &__wrapper {
         width: 1440px;
         height: 120px;
@@ -74,10 +74,31 @@
     }
     &__menu {
         list-style-type: none;
+        a {
+            position: relative;
+            color: #444444;
+            cursor: pointer;
+            line-height: 1;
+            text-decoration: none;
+        }
+        a:after {
+            display: block;
+            position: absolute;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #444444;
+            content: "";
+            transition: width 0.5s ease-out;
+        }
+        a:hover:after,
+        a:focus:after {
+            width: 100%;
+        }
     }
     &__link > a {
         text-decoration: none;
-        color: #444444;
+        color: #444444;  
     }
     &__items {
         display: grid;
