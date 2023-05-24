@@ -9,11 +9,6 @@ $(document).ready(function(){
     });
 
     // Validate forms
-    function validationForms(form){
-        };
-
-    validationForms('#consultation-form');
-
     $('input[name=phone]').mask("+7 (999) 999-99-99");
 
     // Mailer send from forms
@@ -43,7 +38,7 @@ $(document).ready(function(){
         loop:true,
         margin:50,
         nav:false,
-        dots:false,
+        dots:true,
         autoplay:true,
         autoplayTimeout:4000,
         responsive:{
